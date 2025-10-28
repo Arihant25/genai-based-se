@@ -33,7 +33,7 @@ const Overview = () => {
             Workshop Overview
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            An immersive learning experience designed for software engineers, developers, and technology professionals seeking to master AI-driven development methodologies
+            The workshop aims to provide a collaborative platform for researchers and practitioners to delve into the convergence of Generative AI technologies for Software Engineering tasks and application of Software Engineering in GenAI implementation including Agentic AI
           </p>
         </div>
         
@@ -57,23 +57,27 @@ const Overview = () => {
         </div>
         
         <Card className="p-8 md:p-12 bg-gradient-hero text-white shadow-glow">
-          <h3 className="text-3xl font-bold mb-4">Key Takeaways</h3>
+          <h3 className="text-3xl font-bold mb-4">Workshop Topics</h3>
           <ul className="space-y-3 text-lg">
             <li className="flex items-start gap-3">
-              <span className="text-2xl">✓</span>
-              <span>Master generative AI tools and integrate them into development workflows</span>
+              <span className="text-2xl">•</span>
+              <span>Requirements Engineering and Analysis along with Software Architecture and Design</span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-2xl">✓</span>
-              <span>Understand ethical considerations and best practices in AI-assisted coding</span>
+              <span className="text-2xl">•</span>
+              <span>Software Development and Maintenance including refactoring and reengineering</span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-2xl">✓</span>
-              <span>Build production-ready applications using modern AI frameworks</span>
+              <span className="text-2xl">•</span>
+              <span>Software Verification, Testing and Debugging</span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-2xl">✓</span>
-              <span>Network with industry leaders and like-minded professionals</span>
+              <span className="text-2xl">•</span>
+              <span>Legacy Modernization and Reverse Engineering from code and documents</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-2xl">•</span>
+              <span>Human interaction with LLMs and LLM-based Agentic Frameworks</span>
             </li>
           </ul>
         </Card>

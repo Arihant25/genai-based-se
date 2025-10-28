@@ -2,45 +2,45 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, Mail, Phone, FileText } from "lucide-react";
 
-const tiers = [
+const submissionTypes = [
   {
-    name: "Early Bird",
-    price: "$599",
-    description: "Limited time offer",
+    name: "Full Papers",
+    format: "ISEC'26 ACM Format",
+    description: "Original research work",
     features: [
-      "Full 3-day workshop access",
-      "All workshop materials",
-      "Certificate of completion",
-      "Lunch and refreshments",
-      "Access to online resources",
+      "Novel approaches and methodologies",
+      "Experimental results and analysis",
+      "Case studies with insights",
+      "Peer-reviewed by organizing committee",
+      "Selected papers will be published",
     ],
     highlighted: false,
   },
   {
-    name: "Professional",
-    price: "$799",
-    description: "Most popular choice",
+    name: "Abstracts",
+    format: "Text Format (Max 500 words)",
+    description: "Most accessible submission",
     features: [
-      "Everything in Early Bird",
-      "1-on-1 mentorship session",
-      "Premium workshop kit",
-      "Networking dinner access",
-      "6 months community support",
-      "Priority seating",
+      "Case studies and best practices",
+      "Interesting experiments",
+      "Lessons learned from practice",
+      "Quick review process",
+      "Submit via Google form",
+      "Ideal for practitioners",
     ],
     highlighted: true,
   },
   {
-    name: "Enterprise",
-    price: "Custom",
-    description: "For teams of 5+",
+    name: "Talks & Demos",
+    format: "Proposal Submission",
+    description: "Interactive presentations",
     features: [
-      "Everything in Professional",
-      "Custom training modules",
-      "On-site workshop option",
-      "Dedicated support team",
-      "Volume discounts available",
-      "Post-workshop consulting",
+      "Live demonstrations",
+      "Tool presentations",
+      "Work-in-progress sharing",
+      "Hands-on activities",
+      "Lightning talk opportunities",
+      "Networking with peers",
     ],
     highlighted: false,
   },
@@ -52,38 +52,37 @@ const Registration = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Registration & Pricing
+            Call for Papers & Abstracts
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Choose the package that best fits your needs and career goals
+            We solicit submissions in multiple formats. At least one author must register for ISEC to present.
           </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {tiers.map((tier, index) => (
+          {submissionTypes.map((type, index) => (
             <Card 
               key={index}
               className={`relative p-8 transition-all duration-300 hover:-translate-y-2 ${
-                tier.highlighted 
+                type.highlighted 
                   ? 'border-primary border-2 shadow-glow bg-gradient-to-b from-card to-primary/5' 
                   : 'border-2 border-primary/10'
               }`}
             >
-              {tier.highlighted && (
+              {type.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-gradient-hero text-white text-sm font-semibold rounded-full">
-                  POPULAR
+                  RECOMMENDED
                 </div>
               )}
               
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-card-foreground mb-2">{tier.name}</h3>
-                <p className="text-muted-foreground mb-4">{tier.description}</p>
-                <div className="text-4xl font-bold text-primary mb-2">{tier.price}</div>
-                {tier.price !== "Custom" && <p className="text-sm text-muted-foreground">per person</p>}
+                <h3 className="text-2xl font-bold text-card-foreground mb-2">{type.name}</h3>
+                <p className="text-muted-foreground mb-4">{type.description}</p>
+                <div className="text-lg font-semibold text-primary mb-2">{type.format}</div>
               </div>
               
               <ul className="space-y-3 mb-8">
-                {tier.features.map((feature, featureIndex) => (
+                {type.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-muted-foreground">{feature}</span>
@@ -92,41 +91,55 @@ const Registration = () => {
               </ul>
               
               <Button 
-                variant={tier.highlighted ? "hero" : "outline"} 
+                variant={type.highlighted ? "hero" : "outline"} 
                 className="w-full"
                 size="lg"
               >
-                {tier.price === "Custom" ? "Contact Us" : "Register Now"}
+                Submit {type.name}
               </Button>
             </Card>
           ))}
         </div>
         
+        <Card className="p-8 md:p-12 bg-muted/30 mb-12">
+          <h3 className="text-3xl font-bold text-center text-foreground mb-8">Important Dates</h3>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">Dec 15, 2025</div>
+              <p className="text-muted-foreground font-medium">Abstract Submission Deadline</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-secondary mb-2">Jan 10, 2026</div>
+              <p className="text-muted-foreground font-medium">Notification of Acceptance</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-accent mb-2">Feb 19, 2026</div>
+              <p className="text-muted-foreground font-medium">Workshop Date</p>
+            </div>
+          </div>
+        </Card>
+        
         <Card className="p-8 md:p-12 bg-muted/30">
-          <h3 className="text-3xl font-bold text-center text-foreground mb-8">Get in Touch</h3>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
+          <h3 className="text-3xl font-bold text-center text-foreground mb-8">Contact Information</h3>
+          <div className="grid md:grid-cols-2 gap-8 text-center">
             <div className="space-y-2">
               <div className="w-12 h-12 rounded-xl bg-gradient-hero flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-6 h-6 text-white" />
               </div>
-              <h4 className="font-semibold text-foreground">Email</h4>
-              <p className="text-muted-foreground">workshop@example.com</p>
-            </div>
-            
-            <div className="space-y-2">
-              <div className="w-12 h-12 rounded-xl bg-gradient-hero flex items-center justify-center mx-auto mb-4">
-                <Phone className="w-6 h-6 text-white" />
-              </div>
-              <h4 className="font-semibold text-foreground">Phone</h4>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <h4 className="font-semibold text-foreground">Primary Contact</h4>
+              <a href="mailto:lalit.mohan@quickheal.com" className="text-primary hover:text-primary-dark transition-colors">
+                lalit.mohan@quickheal.com
+              </a>
             </div>
             
             <div className="space-y-2">
               <div className="w-12 h-12 rounded-xl bg-gradient-hero flex items-center justify-center mx-auto mb-4">
                 <FileText className="w-6 h-6 text-white" />
               </div>
-              <h4 className="font-semibold text-foreground">Download</h4>
-              <Button variant="link" className="text-primary">Full Proposal PDF</Button>
+              <h4 className="font-semibold text-foreground">Submission Format</h4>
+              <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-dark transition-colors">
+                ACM Proceedings Template
+              </a>
             </div>
           </div>
         </Card>

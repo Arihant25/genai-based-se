@@ -20,7 +20,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <div className="inline-block mb-6 px-6 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-          <p className="text-white/90 text-sm font-medium">Workshop Proposal 2026</p>
+          <p className="text-white/90 text-sm font-medium">Third Workshop @ ISEC'26</p>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -31,27 +31,27 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Join us for an intensive workshop exploring the intersection of artificial intelligence and modern software development practices
+          A collaborative platform for researchers and practitioners exploring the convergence of Generative AI technologies and Software Engineering
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Button variant="hero" size="lg" className="group">
-            Register Now
+            Submit Abstract
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
           <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
-            Download Proposal
+            Download CFP
           </Button>
         </div>
         
         <div className="flex flex-wrap gap-8 justify-center text-white/90">
           <div className="flex items-center gap-2">
             <Calendar className="w-5 h-5" />
-            <span className="text-lg">2026</span>
+            <span className="text-lg">February 19, 2026</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-5 h-5" />
-            <span className="text-lg">Venue TBA</span>
+            <span className="text-lg">IIS Jaipur, India</span>
           </div>
         </div>
       </div>

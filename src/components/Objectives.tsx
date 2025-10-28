@@ -4,26 +4,26 @@ import { Target, Zap, Rocket, Award } from "lucide-react";
 const objectives = [
   {
     icon: Target,
-    title: "Technical Mastery",
-    description: "Gain deep understanding of generative AI models, their capabilities, and limitations in software development contexts.",
+    title: "AI Augmentation",
+    description: "How can LLMs be effectively augmented with additional capabilities to address multi-skill, long-drawn software development activities?",
     color: "from-primary to-primary-glow",
   },
   {
     icon: Zap,
-    title: "Productivity Enhancement",
-    description: "Learn proven techniques to boost development speed and efficiency using AI-powered tools and automation.",
+    title: "Knowledge Focus",
+    description: "How to leverage local knowledge at scale during SDLC to provide the sharp focus needed beyond general LLM information?",
     color: "from-secondary to-primary",
   },
   {
     icon: Rocket,
-    title: "Innovation Mindset",
-    description: "Develop skills to identify opportunities for AI integration and drive innovation within your organization.",
+    title: "Legacy Modernization",
+    description: "Can Generative AI catalyze existing legacy modernization techniques to reduce cost, time and improve correctness?",
     color: "from-accent to-primary-glow",
   },
   {
     icon: Award,
-    title: "Professional Growth",
-    description: "Enhance your career prospects with cutting-edge skills highly valued in the modern tech industry.",
+    title: "Quality & Reliability",
+    description: "What are best practices for maintaining accuracy, relevance, reliability and building secure GenAI applications?",
     color: "from-primary-dark to-accent",
   },
 ];
@@ -34,10 +34,10 @@ const Objectives = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Workshop Objectives
+            Key Discussion Questions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our carefully designed curriculum focuses on delivering tangible skills and measurable outcomes
+            The workshop seeks collaborative discussion and exploration of critical questions in GenAI and Software Engineering
           </p>
         </div>
         

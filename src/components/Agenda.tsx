@@ -3,33 +3,29 @@ import { Clock } from "lucide-react";
 
 const schedule = [
   {
-    day: "Day 1",
-    title: "Foundations & Introduction",
+    day: "Morning Session",
+    title: "Invited Talks & Papers",
     sessions: [
-      { time: "09:00 - 10:30", topic: "Opening Keynote: The Future of AI in Software Engineering" },
-      { time: "10:45 - 12:30", topic: "Introduction to Generative AI Models and Architectures" },
-      { time: "14:00 - 16:00", topic: "Hands-on: Setting Up Your AI Development Environment" },
-      { time: "16:15 - 17:30", topic: "Best Practices and Ethics in AI-Assisted Development" },
+      { time: "09:00 - 09:10", topic: "Opening remarks by organizers" },
+      { time: "09:10 - 11:30", topic: "Invited talks from Academics and Industry research (3 talks × 40 min)" },
+      { time: "11:30 - 13:10", topic: "Talks based on Accepted Papers (5 talks × 20 min)" },
     ],
   },
   {
-    day: "Day 2",
-    title: "Advanced Applications",
+    day: "Afternoon Session",
+    title: "Research & Practice",
     sessions: [
-      { time: "09:00 - 11:00", topic: "Code Generation and Intelligent Code Completion" },
-      { time: "11:15 - 13:00", topic: "AI-Powered Testing and Quality Assurance" },
-      { time: "14:00 - 16:00", topic: "Workshop: Building Production-Ready AI Features" },
-      { time: "16:15 - 17:30", topic: "Case Studies: Real-World AI Implementation Success Stories" },
+      { time: "14:00 - 15:30", topic: "Talks based on reviewed abstracts/Case studies/Demos (6 talks × 15 min)" },
+      { time: "15:30 - 17:00", topic: "Hands-on Session/Problem Solving – Use Cases/Agents defining activity" },
+      { time: "17:00 - 17:30", topic: "Lightning talks (4-6 talks × 5 min)" },
     ],
   },
   {
-    day: "Day 3",
-    title: "Integration & Future",
+    day: "Closing Session",
+    title: "Panel & Wrap-up",
     sessions: [
-      { time: "09:00 - 11:00", topic: "Integrating AI into CI/CD Pipelines" },
-      { time: "11:15 - 13:00", topic: "Performance Optimization and Scaling AI Solutions" },
-      { time: "14:00 - 16:00", topic: "Final Project: Build Your AI-Enhanced Application" },
-      { time: "16:15 - 17:30", topic: "Closing Panel: Future Trends and Q&A with Experts" },
+      { time: "17:30 - 18:30", topic: "Panel discussion on Best practices, Ethics & Guardrails, Trends" },
+      { time: "18:30 - 18:40", topic: "Summary and Closing Remarks" },
     ],
   },
 ];
@@ -40,10 +36,10 @@ const Agenda = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Workshop Agenda
+            Workshop Format
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Three intensive days packed with learning, hands-on exercises, and networking opportunities
+            A full day workshop with invited talks, accepted papers, hands-on sessions, and panel discussions
           </p>
         </div>
         
@@ -77,7 +73,7 @@ const Agenda = () => {
         
         <div className="mt-12 text-center">
           <p className="text-muted-foreground text-lg">
-            * Schedule subject to change. Coffee breaks and networking sessions included throughout each day.
+            * Final format will encourage engaging and strong interactions among all participants. Coffee breaks and networking sessions included throughout the day.
           </p>
         </div>
       </div>
