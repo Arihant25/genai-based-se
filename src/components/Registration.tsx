@@ -27,7 +27,7 @@ const submissionTypes = [
       "Quick review process",
       "Ideal for practitioners",
     ],
-    highlighted: true,
+    highlighted: false,
   },
   {
     name: "Talks & Demos",
