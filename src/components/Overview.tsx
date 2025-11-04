@@ -36,7 +36,7 @@ const Overview = () => {
             LLM-based agents tackle different software development and maintenance tasks including code development, code completion, test case generation, debugging and issue fixing tasks. 
           </p> 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          From the agent perspective, there is a need to throw light on the basic agentic design components,including planning, memory, perception, action and their roles and collaboration mechanisms, in multi-agent settings.
+          From the agent perspective, there is a need to throw light on the basic agentic design components including planning, memory, perception, action and their roles and collaboration mechanisms, in multi-agent settings.
           </p>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           Further, the GenAI implementations are also seeing a need for Software Engineering rigor on robustness, reliability, scalability, security and privacy for wider adoption.
