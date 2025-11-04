@@ -5,10 +5,9 @@ const organizers = [
   {
     name: "Lalit Mohan Sanagavarapu",
     title: "Chief Product Officer",
-    org: "Quick Heal Technologies",
+    org: "Quick Heal Technologies Ltd",
     location: "Pune, India",
     bio: "27+ years of experience in Cyber Security and building large scale systems. 40+ publications and 2 patents.",
-    email: "lalit.mohan@quickheal.com",
   },
   {
     name: "Raveendra Kumar Medicherla",
@@ -16,7 +15,6 @@ const organizers = [
     org: "TCS Research",
     location: "Hyderabad, India",
     bio: "28+ years in software services delivery and research. Focus on Symbolic, Generative AI, and Neuro symbolic techniques.",
-    email: "raveendra.kumar@tcs.com",
   },
   {
     name: "Vibhu Saujanya Sharma",
@@ -24,7 +22,6 @@ const organizers = [
     org: "Accenture Labs",
     location: "Bangalore, India",
     bio: "20+ years experience. 60+ publications, 75+ granted patents. Focus on green software engineering and Gen AI in SE.",
-    email: "vibhu.sharma@accenture.com",
   },
   {
     name: "Ravindra Naik",
@@ -32,7 +29,6 @@ const organizers = [
     org: "COEP Technological University",
     location: "Pune, India",
     bio: "36+ years in industry research around IT system transformations. 24+ publications and 10+ unique patents.",
-    email: "rdn.comp@coeptech.ac.in",
   },
   {
     name: "Karthik Vaidhyanathan",
@@ -40,7 +36,6 @@ const organizers = [
     org: "IIIT-Hyderabad",
     location: "Hyderabad, India",
     bio: "Software Engineering Research Center. Focus on intersection of software architecture and machine learning.",
-    email: "karthik.vaidhyanathan@iiit.ac.in",
   },
 ];
 
