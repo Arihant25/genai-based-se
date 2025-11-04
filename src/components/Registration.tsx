@@ -5,14 +5,14 @@ import { Check, Mail, Phone, FileText } from "lucide-react";
 const submissionTypes = [
   {
     name: "Full Papers",
-    format: "ISEC'26 ACM Format",
+    format: "ISEC'26 ACM Format (5 pages)",
     description: "Original research work",
     features: [
       "Novel approaches and methodologies",
       "Experimental results and analysis",
       "Case studies with insights",
       "Peer-reviewed by eminent researchers from industry and academic",
-      "Selected papers will be published",
+      "Selected papers will be published in proceedings",
     ],
     highlighted: false,
   },
@@ -54,7 +54,7 @@ const Registration = () => {
             Call for Papers & Abstracts
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We solicit submissions in multiple formats. At least one author must register for ISEC to present.
+            At least one author must register for ISEC to present in-person.
           </p>
         </div>
         
@@ -68,11 +68,11 @@ const Registration = () => {
                   : 'border-2 border-primary/10'
               }`}
             >
-              {type.highlighted && (
+         <!--     {type.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-gradient-hero text-white text-sm font-semibold rounded-full">
                   RECOMMENDED
                 </div>
-              )}
+              )} -->
               
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-card-foreground mb-2">{type.name}</h3>
@@ -130,8 +130,8 @@ const Registration = () => {
                 <Mail className="w-6 h-6 text-white" />
               </div>
               <h4 className="font-semibold text-foreground">Primary Contact</h4>
-              <a href="mailto:lalit.mohan@quickheal.com" className="text-primary hover:text-primary-dark transition-colors">
-                lalit.mohan@quickheal.com
+              <a href="mailto:genai4se@googlegroups.com" className="text-primary hover:text-primary-dark transition-colors">
+                genai4se@googlegroups.com
               </a>
             </div>
             
