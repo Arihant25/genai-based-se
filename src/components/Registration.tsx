@@ -105,10 +105,14 @@ const Registration = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">Dec 15, 2025</div>
+              <p className="text-muted-foreground font-medium">Paper Submission Deadline</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">Dec 31, 2025</div>
               <p className="text-muted-foreground font-medium">Abstract Submission Deadline</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-2">Jan 10, 2026</div>
+              <div className="text-4xl font-bold text-secondary mb-2">Jan 15, 2026</div>
               <p className="text-muted-foreground font-medium">Notification of Acceptance</p>
             </div>
             <div className="text-center">
