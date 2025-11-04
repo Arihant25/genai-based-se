@@ -6,7 +6,7 @@ const organizers = [
     name: "Lalit Mohan Sanagavarapu",
     title: "Chief Product Officer",
     org: "Quick Heal Technologies Ltd",
-    bio: "Lalit has 25+ years of experience in Cyber Security and building large scale systems for Banking and Financial Services. Lalit has 40+ publications and 2 patents with research interest in Cyber Security, Software Engineering & AI/ML, Information Retrieval & Extraction and Cloud Computing.",
+    bio: "Lalit has 25+ years of experience in Cyber Security and building large scale systems for Banking and Financial Services. Lalit has 40+ publications and 2 patents with research interest in Cyber Security, Software Engineering for AI/ML, Information Retrieval & Extraction and Cloud Computing.",
   },
   {
     name: "Raveendra Kumar Medicherla",
@@ -30,7 +30,7 @@ const organizers = [
     name: "Karthik Vaidhyanathan",
     title: "Assistant Professor",
     org: "IIIT-Hyderabad",
-    bio: "He is also associated with the leadership team of smart city living lab. His main research interest is the intersection of software architecture and machine learning with a specific focus on building sustainable software systems. His research focuses on how machine learning techniques, in particular Generative AI can be leveraged to better architect software systems and to better define architecting practices for developing Machine Learning enabled software systems. As a part of his research activities, he serves as a reviewer/committee member in various international workshops, conferences, and journals. He is also an editorial board member of IEEE Software.",
+    bio: "He is also associated with the leadership team of smart city living lab. His main research interest is the intersection of software architecture and machine learning including GenAI with a specific focus on building sustainable software systems. As a part of his research activities, he serves as a reviewer/committee member in various international workshops, conferences, and journals. He is also an editorial board member of IEEE Software.",
   },
 ];
 
