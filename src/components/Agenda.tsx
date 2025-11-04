@@ -39,7 +39,7 @@ const Agenda = () => {
             Workshop Format
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A full day workshop with invited talks, accepted papers, hands-on sessions, and panel discussions
+            Tentative schedule for the full day workshop with invited talks, accepted papers, hands-on sessions, and panel discussions
           </p>
         </div>
         
