@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Mail, Building2 } from "lucide-react";
+import { Building2 } from "lucide-react";
 
 const organizers = [
   {
@@ -58,24 +58,15 @@ const Organizers = () => {
                   {organizer.name}
                 </h3>
                 <p className="text-primary font-semibold mb-2">{organizer.title}</p>
-                <div className="flex items-start gap-2 text-sm text-muted-foreground mb-1">
+                <div className="flex items-start gap-2 text-sm text-muted-foreground">
                   <Building2 className="w-4 h-4 mt-0.5 flex-shrink-0" />
                   <span>{organizer.org}</span>
                 </div>
-                <p className="text-sm text-muted-foreground mb-3">{organizer.location}</p>
               </div>
               
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+              <p className="text-sm text-muted-foreground leading-relaxed">
                 {organizer.bio}
               </p>
-              
-              <a 
-                href={`mailto:${organizer.email}`}
-                className="flex items-center gap-2 text-sm text-primary hover:text-primary-dark transition-colors"
-              >
-                <Mail className="w-4 h-4" />
-                <span className="break-all">{organizer.email}</span>
-              </a>
             </Card>
           ))}
         </div>

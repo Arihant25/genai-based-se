@@ -39,9 +39,9 @@ const Hero = () => {
             Submit Paper or Abstract
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
-<!--          <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
+          {/* <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
             Download CFP
-          </Button> -->
+          </Button> */}
         </div>
         
         <div className="flex flex-wrap gap-8 justify-center text-white/90">

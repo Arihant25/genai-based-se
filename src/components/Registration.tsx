@@ -65,14 +65,14 @@ const Registration = () => {
               className={`relative p-8 transition-all duration-300 hover:-translate-y-2 ${
                 type.highlighted 
                   ? 'border-primary border-2 shadow-glow bg-gradient-to-b from-card to-primary/5' 
-                  : 'border-2 border-primary/10'
+                : 'border-2 border-primary/10'
               }`}
             >
-         <!--     {type.highlighted && (
+              {/* {type.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-gradient-hero text-white text-sm font-semibold rounded-full">
                   RECOMMENDED
                 </div>
-              )} -->
+              )} */}
               
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-card-foreground mb-2">{type.name}</h3>
