@@ -39,7 +39,7 @@ const Overview = () => {
           From the agent perspective, there is a need to throw light on the basic agentic design components,including planning, memory, perception, action and their roles and collaboration mechanisms, in multi-agent settings.
           </p>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          On a parallel track, the GenAI implementations are also seeing a need for Software Engineering rigor on robustness, reliability, scalability for wider adoption. GenAI models require immense computational power, a scalable and optimized infrastructure ensures scale up or down as needed. Security and Privacy is an emerging concern with GenAI based models. Sufficient software engineering guardrails to prevent data leakage, resilience against cyber attacks including prompt injection attacks will enhance adoption of GenAI in IT systems.
+          Further, the GenAI implementations are also seeing a need for Software Engineering rigor on robustness, reliability, scalability, security and privacy for wider adoption.
           </p>
         </div>
         
