@@ -8,7 +8,7 @@ const schedule = [
     sessions: [
       { time: "09:00 - 09:10", topic: "Opening remarks by organizers" },
       { time: "09:10 - 11:30", topic: "Invited talks from Academics and Industry research (3 talks × 40 min)" },
-      { time: "11:30 - 13:10", topic: "Talks based on Accepted Papers (5 talks × 20 min)" },
+      { time: "11:30 - 13:15", topic: "Talks based on Accepted Papers (5 talks × 20 min)" },
     ],
   },
   {
@@ -25,7 +25,7 @@ const schedule = [
     title: "Panel & Wrap-up",
     sessions: [
       { time: "17:30 - 18:30", topic: "Panel discussion on Best practices, Ethics & Guardrails, Trends" },
-      { time: "18:30 - 18:40", topic: "Summary and Closing Remarks" },
+      { time: "18:30 - 18:45", topic: "Summary and Closing Remarks" },
     ],
   },
 ];
