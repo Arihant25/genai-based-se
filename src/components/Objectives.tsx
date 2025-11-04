@@ -37,7 +37,7 @@ const Objectives = () => {
             Key Discussion Questions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The workshop seeks collaborative discussion and exploration of critical questions in GenAI and Software Engineering
+            The workshop seeks discussion and exploration of critical questions in GenAI and Software Engineering
           </p>
         </div>
         
