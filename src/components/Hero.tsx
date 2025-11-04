@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Generative AI & <br />
+          Generative AI based <br />
           <span className="bg-gradient-to-r from-primary-glow to-secondary bg-clip-text text-transparent">
             Software Engineering
           </span>
