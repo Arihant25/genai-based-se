@@ -9,8 +9,7 @@ const submissionTypes = [
     description: "Original research work",
     features: [
       "Novel approaches and methodologies",
-      "Experimental results and analysis",
-      "Case studies with insights",
+      "Experimental results and case studies with insights",
       "Peer-reviewed by eminent researchers from industry and academic",
       "Selected papers will be published in proceedings",
     ],
