@@ -51,6 +51,9 @@ const Registration = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             At least one author must register for ISEC to present in-person.
           </p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            The Microsoft CMT service is used for managing the peer-reviewing process for this workshop. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+          </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
